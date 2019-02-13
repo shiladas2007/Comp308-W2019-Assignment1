@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson3a1",
+  "name": "comp308-w2019-assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "express generator demo",
+  "description": "Assignment 1-Express Portfolio",
   "main": "server.js",
   "author": "shila",
   "license": "ISC",
@@ -27,5 +27,13 @@
     "@types/express": "^4.16.1",
     "@types/morgan": "^1.7.35",
     "@types/node": "^10.12.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiladas2007/shiladas2007-Comp308-W2019-assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiladas2007/shiladas2007-Comp308-W2019-assignment1/issues"
+  },
+  "homepage": "https://github.com/shiladas2007/shiladas2007-Comp308-W2019-assignment1#readme"
 }
