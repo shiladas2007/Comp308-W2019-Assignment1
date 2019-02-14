@@ -6,13 +6,13 @@ router.get("/", function(req, res, next) {
   res.render("index", { title: "Home" });
 });
 router.get("/about", function(req, res, next) {
-  res.render("index", { title: "About" });
+  res.render("about/index", { title: "About" });
 });
 router.get("/contact", function(req, res, next) {
-  res.render("index", { title: "Contact" });
+  res.render("/index", { title: "Contact" });
 });
-router.get("/products", function(req, res, next) {
-  res.render("index", { title: "Products" });
+router.get("/projects", function(req, res, next) {
+  res.render("projects/index", { title: "Projects" });
 });
 router.get("/services", function(req, res, next) {
   res.render("index", { title: "Services" });
