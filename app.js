@@ -1,3 +1,7 @@
+//app.js
+//Author Name: Shila (300969886) Data: 11 Feb 2019
+
+
 let createError = require("http-errors");
 let express = require("express");
 let path = require("path");
@@ -6,7 +10,7 @@ let logger = require("morgan");
 
 let indexRouter = require("./routes/index");
 let aboutRouter = require("./routes/about");
-let usersRouter = require("./routes/users");
+
 
 let app = express();
 
@@ -23,7 +27,7 @@ app.use(express.static(path.join(__dirname, "node_modules")));
 
 app.use("/", indexRouter);
 app.use("/about", aboutRouter);
-app.use("/users", usersRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

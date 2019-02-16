@@ -1,3 +1,6 @@
+//File Name: index.js
+//Author Name: Shila (300969886) Data: 11 Feb 2019
+
 let express = require("express");
 let router = express.Router();
 
@@ -9,7 +12,7 @@ router.get("/about", function(req, res, next) {
   res.render("about/index", { title: "About" });
 });
 router.get("/contact", function(req, res, next) {
-  res.render("/index", { title: "Contact" });
+  res.render("contact/index", { title: "Contact" });
 });
 router.get("/projects", function(req, res, next) {
   res.render("projects/index", { title: "Projects" });
