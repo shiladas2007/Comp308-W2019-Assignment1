@@ -9,4 +9,5 @@ let contactSchema=mongoose.Schema({
 },
     { collection: "contactList"}
 );
+//shila_contact is database, contactList is table name
 module.exports = mongoose.model('shila_contact',contactSchema);

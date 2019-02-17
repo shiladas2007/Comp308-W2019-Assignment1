@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname, "node_modules")));
 
 app.use("/", indexRouter);
 app.use("/about", aboutRouter);
-app.use("/contact-list", contactRouter);
+app.use("/contact", contactRouter);
 
 
 // catch 404 and forward to error handler
